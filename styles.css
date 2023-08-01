@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #1e2121;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1e2121;
+}
+
+/* Header */
+
+header {
+    background-color: #1e2121;
+}
+
+/* Main */
+
+main {
+    background-color: #1e2121;
+}
+
+/* Footer */
+
+footer {
+    background-color: #4cffcf;
+    background-color: #141617;
+    background-color: #1e2121;
+}
