@@ -83,7 +83,6 @@ i {
     top: 0;
     right: 0;
     width: 30000px;
-    /* Cambiar el ancho deseado del carrito */
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
@@ -102,9 +101,7 @@ i {
     visibility: visible;
     transition-delay: 0s;
     width: 100%;
-    /* Ajustar el ancho para que cubra toda la pantalla */
     height: 100%;
-    /* Ajustar la altura para que cubra toda la pantalla */
 }
 
 .cart-overlay h2 {
@@ -125,6 +122,14 @@ i {
 
 main {
     background-color: #1e2121;
+    color: white;
+}
+
+.img-personaje {
+    position: absolute;
+    z-index: 11;
+    width: 600px;
+    bottom: 0;
 }
 
 /* Footer */
@@ -136,3 +141,21 @@ footer {
 }
 
 /* @Medias */
+
+@media screen and (max-width: 280px) {
+    .img-personaje {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img-personaje {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1200px) {
+    .img-personaje {
+        width: 470px;
+    }
+}
