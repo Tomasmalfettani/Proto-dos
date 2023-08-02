@@ -12,6 +12,7 @@ html {
 
 body {
     background-color: #1e2121;
+    overflow: hidden;
 }
 
 /* Header */
@@ -144,18 +145,18 @@ footer {
 
 @media screen and (max-width: 280px) {
     .img-personaje {
-        width: 240px;
+        width: 235px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .img-personaje {
-        width: 340px;
+        width: 335px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1200px) {
     .img-personaje {
-        width: 460px;
+        width: 455px;
     }
 }
