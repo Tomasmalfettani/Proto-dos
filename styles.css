@@ -144,18 +144,18 @@ footer {
 
 @media screen and (max-width: 280px) {
     .img-personaje {
-        width: 250px;
+        width: 240px;
     }
 }
 
 @media screen and (max-width: 576px) {
     .img-personaje {
-        width: 350px;
+        width: 340px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1200px) {
     .img-personaje {
-        width: 470px;
+        width: 460px;
     }
 }
