@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;700&display=swap');
+
 html {
     background-color: #1e2121;
     scroll-behavior: smooth;
@@ -14,15 +16,16 @@ body {
 
 /* Header */
 
-
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     transition: 0.7s;
-    padding: 10px 20px;
+    padding: 10px;
     z-index: 10;
+    /* background-image: linear-gradient(to right, #141617 235px, #1e2121 0%); */
+    font-family: 'Exo', sans-serif;
     background-color: #1e2121;
 }
 
@@ -32,7 +35,6 @@ ul {
 }
 
 ul li a {
-    margin: 0 15px;
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
@@ -65,7 +67,6 @@ ul li a.activo::before {
     transform: scaleX(1);
 }
 
-
 i {
     font-size: 22px;
     color: #4cffcf;
@@ -73,6 +74,51 @@ i {
 
 .activo {
     color: #4cffcf;
+}
+
+/* Carrito desplegable */
+
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30000px;
+    /* Cambiar el ancho deseado del carrito */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+    color: white;
+}
+
+.cart-overlay.open {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+    width: 100%;
+    /* Ajustar el ancho para que cubra toda la pantalla */
+    height: 100%;
+    /* Ajustar la altura para que cubra toda la pantalla */
+}
+
+.cart-overlay h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.cart-overlay ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-overlay li {
+    margin-bottom: 10px;
 }
 
 /* Main */
@@ -88,3 +134,5 @@ footer {
     background-color: #141617;
     background-color: #1e2121;
 }
+
+/* @Medias */
