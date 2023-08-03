@@ -124,20 +124,32 @@ header i {
 main {
     background-color: #1e2121;
     color: white;
-    margin-top: 110px;
+    margin-top: 90px;
 }
 
 .img-personaje {
     position: absolute;
     z-index: 11;
-    width: 475px;
+    width: 750px;
     bottom: 0;
 }
 
 main i {
-    font-size: 36px;
+    font-size: 28px;
     color: grey;
 }
+
+.letra-color {
+    color: #4cffcf;
+}
+
+.titulo {
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 98px;
+}
+
+/* Boton */
 
 /* Footer */
 
@@ -149,20 +161,46 @@ footer {
 
 /* @Medias */
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 281px) {
     .img-personaje {
-        width: 235px;
+        width: 185px;
+    }
+
+    main {
+        margin-top: 110px;
+    }
+
+    .titulo {
+        font-size: 42px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media (min-width: 281px) and (max-width: 377px) {
     .img-personaje {
-        width: 335px;
+        width: 200px;
+    }
+
+    .titulo {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 576px) {
+    .img-personaje {
+        width: 285px;
+    }
+
+    .titulo {
+        font-size: 64px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 1200px) {
     .img-personaje {
-        width: 380px;
+        width: 465px;
+    }
+
+    .titulo {
+        font-size: 98px;
     }
 }
