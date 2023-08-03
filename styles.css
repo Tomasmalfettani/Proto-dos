@@ -25,9 +25,9 @@ header {
     transition: 0.7s;
     padding: 10px;
     z-index: 10;
-    /* background-image: linear-gradient(to right, #141617 235px, #1e2121 0%); */
     font-family: 'Exo', sans-serif;
     background-color: #1e2121;
+    /* background-image: linear-gradient(to right, #141617 235px, #1e2121 0%); */
 }
 
 ul {
@@ -41,7 +41,7 @@ ul li a {
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-transform: uppercase;
     position: relative;
 }
@@ -68,7 +68,7 @@ ul li a.activo::before {
     transform: scaleX(1);
 }
 
-i {
+header i {
     font-size: 22px;
     color: #4cffcf;
 }
@@ -124,13 +124,19 @@ i {
 main {
     background-color: #1e2121;
     color: white;
+    margin-top: 110px;
 }
 
 .img-personaje {
     position: absolute;
     z-index: 11;
-    width: 600px;
+    width: 475px;
     bottom: 0;
+}
+
+main i {
+    font-size: 36px;
+    color: grey;
 }
 
 /* Footer */
@@ -157,6 +163,6 @@ footer {
 
 @media screen and (min-width: 577px) and (max-width: 1200px) {
     .img-personaje {
-        width: 455px;
+        width: 380px;
     }
 }
