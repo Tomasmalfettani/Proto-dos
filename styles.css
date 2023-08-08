@@ -156,6 +156,8 @@ main {
     background-color: #1e2121;
     font-family: 'Exo', sans-serif;
     text-transform: uppercase;
+    position: relative; 
+    z-index: 2;
 }
 
 .styled-button:hover {
