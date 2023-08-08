@@ -230,7 +230,7 @@ main {
     }
 
     .img-personaje {
-        width: 75%;
+        width: 70%;
     }
 }
 
@@ -245,25 +245,25 @@ main {
     }
 
     .img-personaje {
-        width: 90%;
+        width: 85%;
     }
 }
 
 @media (min-width: 539px) and (max-width: 541px) {
     .img-personaje {
-        width: 70%;
+        width: 65%;
     }
 }
 
 @media (min-width: 359px) and (max-width: 415px) {
     .img-personaje {
-        width: 100%;
+        width: 95%;
     }
 }
 
 @media (min-width: 374px) and (max-width: 376px) {
     .img-personaje {
-        width: 90%;
+        width: 85%;
     }
 }
 
