@@ -190,6 +190,50 @@ main {
     bottom: 0
 }
 
+/* Estilos para las tarjetas de colección */
+.collection-card {
+    background-color: #1e2121;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.collection-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4cffcf;
+    margin-bottom: 10px;
+}
+
+.collection-description {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.collection-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4cffcf;
+    color: #1e2121;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.collection-button:hover {
+    background-color: #1e2121;
+    color: #4cffcf;
+}
+
+.collection-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
 
 
 @media (min-width: 1000px) and (max-width: 1800px) {
