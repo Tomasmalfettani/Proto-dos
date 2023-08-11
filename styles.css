@@ -343,6 +343,10 @@ main {
     .pc {
         display: none;
     }
+
+    .collection-card {
+        margin: 1px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -357,6 +361,10 @@ main {
 
     .img-personaje {
         width: 65%;
+    }
+
+    .collection-card {
+        margin: 1px;
     }
 }
 
@@ -376,6 +384,10 @@ main {
 
     .improved-title {
         font-size: 36px;
+    }
+
+    .collection-card {
+        margin: 20px;
     }
 }
 
