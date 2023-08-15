@@ -37,12 +37,12 @@ header {
     background-color: #1e2121;
 }
 
-ul {
+header ul {
     display: flex;
     list-style: none;
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
@@ -54,7 +54,7 @@ ul li a {
     font-family: 'Exo', sans-serif;
 }
 
-ul li a::before {
+header ul li a::before {
     content: "";
     position: absolute;
     bottom: -9px;
@@ -67,12 +67,12 @@ ul li a::before {
     transition: transform 0.3s linear;
 }
 
-ul li a:hover {
+header ul li a:hover {
     color: #4cffcf;
 }
 
-ul li a:not(.no-anim):hover::before,
-ul li a.activo::before {
+header ul li a:not(.no-anim):hover::before,
+header ul li a.activo::before {
     transform: scaleX(1);
 }
 
@@ -191,6 +191,7 @@ main {
 }
 
 /* Estilos para la sección de colecciones mejorados */
+
 .improved-section {
     padding: 40px;
 }
@@ -234,15 +235,12 @@ main {
     0%,
     100% {
         border: 2px solid #1e2121;
-        /* Borde normal */
         box-shadow: inset 0 0 40px -25px #4cffcf;
     }
 
     50% {
         border: 2px solid #4cffcf;
-        /* Borde con luz verde */
         box-shadow: inset 0 0 40px -25px #4cffcf, 0 0 10px rgba(76, 255, 76, 0.3);
-        /* Agregar efecto de luz */
     }
 }
 
@@ -309,15 +307,8 @@ main {
 
 .footer-desc {
     font-size: 16px;
-    color: white;
+    color: grey;
     margin-bottom: 15px;
-}
-
-.footer-line {
-    width: 30px;
-    height: 2px;
-    background-color: #4cffcf;
-    margin: 5px 0;
 }
 
 .footer-lista {
@@ -342,7 +333,17 @@ main {
 }
 
 .footer-redes li {
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #4cffcf;
 }
 
 
