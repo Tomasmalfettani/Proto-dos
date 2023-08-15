@@ -296,6 +296,55 @@ main {
     text-decoration: none;
 }
 
+/* Footer */
+
+/* Footer */
+
+.footer-titulo {
+    font-size: 24px;
+    color: #4cffcf;
+    margin-bottom: 15px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.footer-desc {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-line {
+    width: 30px;
+    height: 2px;
+    background-color: #4cffcf;
+    margin: 5px 0;
+}
+
+.footer-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.footer-lista li {
+    margin-bottom: 10px;
+}
+
+.footer-redes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 24px;
+    color: white;
+}
+
+.footer-redes li {
+    margin-right: 15px;
+}
+
 
 @media (min-width: 1000px) and (max-width: 1800px) {
     .titulo {
