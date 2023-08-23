@@ -296,7 +296,66 @@ main {
 
 /* Footer */
 
-/* Footer */
+/* Estilos para la franja de suscripción al newsletter */
+
+.newsletter-section {
+    background-color: #141617;
+    padding: 20px 0;
+}
+
+.newsletter-titulo {
+    font-size: 24px;
+    color: #4cffcf;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 10px;
+}
+
+.newsletter-desc {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    color: #4cffcf;
+    border: 3.5px solid #4cffcf;
+    box-shadow: inset 0 0 40px -25px #4cffcf;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1e2121;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+    background-color: #4cffcf;
+    color: #1e2121;
+}
+
+/* Estilos para la sección de colecciones mejorados */
+
+/* ... (tus estilos actuales) ... */
+
+
 
 .footer-titulo {
     font-size: 24px;
