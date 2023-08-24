@@ -330,13 +330,13 @@ main {
 }
 
 .newsletter-button {
-    padding: 10px 20px;
+    padding: 10px 35px;
     color: #4cffcf;
     border: 3.5px solid #4cffcf;
     box-shadow: inset 0 0 40px -25px #4cffcf;
     border-radius: 15px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     background-color: #1e2121;
     font-family: 'Exo', sans-serif;
@@ -350,12 +350,6 @@ main {
     background-color: #4cffcf;
     color: #1e2121;
 }
-
-/* Estilos para la sección de colecciones mejorados */
-
-/* ... (tus estilos actuales) ... */
-
-
 
 .footer-titulo {
     font-size: 24px;
@@ -455,6 +449,10 @@ footer a:hover {
 
     .collection-card {
         margin: 1px;
+    }
+
+    .newsletter-button {
+        padding: 10px 20px;
     }
 }
 
