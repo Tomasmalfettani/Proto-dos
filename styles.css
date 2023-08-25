@@ -298,11 +298,6 @@ main {
 
 /* Estilos para la franja de suscripción al newsletter */
 
-.newsletter-section {
-    background-color: #141617;
-    padding: 20px 0;
-}
-
 .newsletter-titulo {
     font-size: 24px;
     color: #4cffcf;
