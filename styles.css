@@ -129,6 +129,10 @@ header i {
 
 /* Main */
 
+.mayuscula {
+    text-transform: uppercase;
+}
+
 main {
     background-color: #1e2121;
     color: white;
